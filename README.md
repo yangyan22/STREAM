@@ -10,6 +10,7 @@ Chest X-ray report generation has attracted increasing research attention. Howev
 
 # Dataset and Weight
 you can download the MIMIC-CXR images from https://physionet.org/content/mimic-cxr-jpg/2.0.0/
+
 you can download the IU X-Ray images from https://openi.nlm.nih.gov/
 
 # Environment and Install
