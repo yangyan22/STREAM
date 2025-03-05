@@ -24,7 +24,7 @@ pip install -r requirements.txt
 
 download pretrained swin-base-patch4-window7-224, TinyLlama-1.1B-Chat-v1.0, BiomedVLP-CXR-BERT-specialized from hugging face.
 
-3. Put the [evalcap](https://github.com/wang-zhanyu/R2GenGPT) to directory 
+3. Put the [evalcap](https://github.com/wang-zhanyu/R2GenGPT) to the main directory 
 4. Constuct the json file with retrieved entity desriptions
 5. Run train.py
 
