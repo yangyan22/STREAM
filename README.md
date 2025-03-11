@@ -28,16 +28,16 @@ it is for evaluation using machine translation metrics.
 Link: https://pan.baidu.com/s/1dADjlyjXixLI8edJ1Yl7nA  Code: pcm9 
 
 regions = [
-    "right lung",               # 1
-    "right hilar structures",   # 5
-    "right apical zone",        # 6
-    "left lung",                # 9
-    "left hilar structures",    # 13
-    "left apical zone",         # 14
-    "trachea",                  # 17
-    "spine",                    # 18
-    "mediastinum",              # 22
-    "cardiac silhouette",       # 25
+    "right lung"               # 1
+    "right hilar structures"  # 5
+    "right apical zone"       # 6
+    "left lung"               # 9
+    "left hilar structures"    # 13
+    "left apical zone"         # 14
+    "trachea"                  # 17
+    "spine"                 # 18
+    "mediastinum"          # 22
+    "cardiac silhouette"       # 25
     "abdomen"                   # 29
 ]
 
