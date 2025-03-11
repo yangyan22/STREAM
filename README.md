@@ -23,6 +23,10 @@ download pretrained swin-base-patch4-window7-224, TinyLlama-1.1B-Chat-v1.0, Biom
 
 it is for evaluation using machine translation metrics.
 
+# Knowledge banks of CXR anotomical regions
+ 
+Link: https://pan.baidu.com/s/1dADjlyjXixLI8edJ1Yl7nA  Code: pcm9 
+ 
 # Usage
 1. Construct the JSON file incorporating temporal and multi-view information. The temporal and multi-view information is generated from the "mimic-cxr-2.0.0-metadata.csv" file included in the official dataset.
 2. Construct the JSON file with retrieved entity descriptions using the Retriever.
