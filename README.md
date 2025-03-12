@@ -10,8 +10,8 @@ Chest X-ray report generation has attracted increasing research attention. Howev
 
 
 # Datasets
-you can download the MIMIC-CXR dataset from https://physionet.org/content/mimic-cxr-jpg/2.0.0/ with your account being "credentialed".
-you can download the IU X-Ray dataset from https://openi.nlm.nih.gov/
+Please download the MIMIC-CXR dataset from https://physionet.org/content/mimic-cxr-jpg/2.0.0/ with your account being "credentialed".
+Please download the IU X-Ray dataset from https://openi.nlm.nih.gov/
 
 # Environment and Installation
 Python = 3.10.13 and torch = 2.1.1+cu118
@@ -46,6 +46,7 @@ regions = [
     "abdomen"                   # 29
 ]
 
+We construct the Faiss files with the visual encoder of [MedCLIP](https://github.com/RyanWangZf/MedCLIP).
  
 # Usage
 1. Construct the JSON file incorporating temporal and multi-view information. The temporal and multi-view information is generated from the "mimic-cxr-2.0.0-metadata.csv" file included in the official dataset.
