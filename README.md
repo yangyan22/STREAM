@@ -47,6 +47,8 @@ regions = [
 ]
 
 We construct the Faiss files with the visual encoder of [MedCLIP](https://github.com/RyanWangZf/MedCLIP).
+
+The knowledge bank is constructed of a region label, an abnormality attribute, a description, a temporal connection, and an embedding (The embeddings are included in the Faiss files).
  
 # Usage
 1. Construct the JSON file incorporating temporal and multi-view information. The temporal and multi-view information is generated from the "mimic-cxr-2.0.0-metadata.csv" file included in the official dataset.
