@@ -66,3 +66,12 @@ Our codes are partialy based on the codes from R2GenGPT.
 # Citation
 If you find this repository useful for your research, please cite our paper:
 STREAM: Spatio-Temporal and Retrieval-Augmented Modelling for Chest X-Ray Report Generation, IEEE Transactions on Medical Imaging, 2025.
+
+@ARTICLE{10938723,
+  author={Yang, Yan and You, Xiaoxing and Zhang, Ke and Fu, Zhenqi and Wang, Xianyun and Ding, Jiajun and Sun, Jiamei and Yu, Zhou and Huang, Qingming and Han, Weidong and Yu, Jun},
+  journal={IEEE Transactions on Medical Imaging}, 
+  title={Spatio-Temporal and Retrieval-Augmented Modeling for Chest X-Ray Report Generation}, 
+  year={2025},
+  volume={44},
+  number={7},
+  pages={2892-2905}}
