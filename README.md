@@ -53,6 +53,7 @@ The knowledge bank is constructed of a region label, an abnormality attribute, a
 # Training the CXR region detector
 
 Train the CXR region detector to detect anotomical regions with the [Chest ImaGenome dataset](https://physionet.org/content/chest-imagenome/1.0.0/). Related codes can be found at [RGRG](https://github.com/ttanida/rgrg).
+The trained detector checkpoint is available at https://pan.baidu.com/s/1yrLCugDE8kitzSUZ2B5fEQ with the extraction code "exig". 
 
 # Usage
 1. Construct the JSON file incorporating temporal and multi-view information. The temporal and multi-view information is generated from the "mimic-cxr-2.0.0-metadata.csv" file included in the official dataset.
