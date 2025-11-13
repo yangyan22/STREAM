@@ -27,7 +27,7 @@ it is for evaluation using machine translation metrics.
 
 ## 🎯 Knowledge banks of CXR anotomical regions
  
-Link: https://pan.baidu.com/s/1dADjlyjXixLI8edJ1Yl7nA  Code: pcm9 
+Link: https://drive.google.com/drive/folders/174I2qsoRvb_yF3xVXWLn55BRj4h-poyn?usp=drive_link
 
 regions = [
     "right lung"               # 1
