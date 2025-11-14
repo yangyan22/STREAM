@@ -19,11 +19,11 @@ pip install -r requirements.txt
 
 2. Download pretrained models
 
-download pretrained swin-base-patch4-window7-224, TinyLlama-1.1B-Chat-v1.0, BiomedVLP-CXR-BERT-specialized from hugging face.
+Download pretrained swin-base-patch4-window7-224, TinyLlama-1.1B-Chat-v1.0, BiomedVLP-CXR-BERT-specialized from hugging face.
 
 3. Put the [evalcap](https://github.com/wang-zhanyu/R2GenGPT) to the main directory
 
-it is for evaluation using machine translation metrics.
+It is for evaluation using machine translation metrics. However, these NLG metrics are no longer recommended for evaluation. I suggest using the medical-special metrics such as RateScore and GREEN to more appropriately assess CXR report generation models.  
 
 ## 🎯 Knowledge banks of CXR anotomical regions
  
