@@ -92,13 +92,13 @@ def main():
     args.annotation = "/data/SJM/mimic_views_ranked_pr_temp_retrieval.json"
     args.base_dir = "/home/mil39/yinanwangbei/MedDataset/mimic-cxr-jpg/files"
     args.cxr_bert_path = '/data/SJM/BiomedVLP-CXR-BERT-specialized'
-    args.batch_size = 10
+    args.batch_size = 8
     args.val_batch_size = 36
     args.freeze_vm = False
     args.vis_use_lora = False
-    args.llm_use_lora = False
-    # args.vis_r = 16
-    # args.vis_alpha = 16
+    args.llm_use_lora = True
+    args.vis_r = 16
+    args.vis_alpha = 16
     args.savedmodel_path = savepath
     args.gradient_clip_val = 1
     args.max_length = 100
@@ -124,4 +124,5 @@ def main():
 
 
 if __name__ == '__main__':
+
     main()
